@@ -1,0 +1,59 @@
+*,::after,::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wholesite{
+    width: 100%;
+    height:auto;
+  
+
+}
+
+.navbar{
+    background-color: rgb(26, 26, 77);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 6%;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight:700;
+    color: rgb(155, 235, 254);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.joinusbtn{
+    cursor: pointer;
+}
+.signupbtn{
+    background-color: rgb(35, 105, 245);
+    padding:4px 8px;
+    border-radius: 5px;
+}
+
+.signupbtn:hover{
+    background-color: rgb(2, 251, 2);
+    color:black;
+}
+
+.navitems{
+    width:400px ;
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navitems a:hover{
+    color:  rgb(155, 235, 254);;
+}

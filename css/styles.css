@@ -59,5 +59,25 @@ a{
 }
 
 .main{
-    
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sidetext h1{
+font-size: 60px;
+}
+
+.sidetext p{
+    font-size: 20px;
+}
+
+.sidetext span{
+    color: rgb(3, 68, 10);
+    font-weight: 700;
+    border-width: 2px;
+    border-style: dashed;
+    padding: 2px 4px;
+    border-color: rgb(37, 104, 248);
 }
